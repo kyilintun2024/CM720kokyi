@@ -1,4 +1,4 @@
-name: Windows - H2S - CM - 720 - Direct - server3
+name: Windows - H2S - CM - 720 - Direct - server3 (Yellow)
 
 on:
   workflow_dispatch:
@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Bogyi2024/log/main/directcm720kk.bat" -OutFile "directcm720kk.bat"
-          cmd /c directcm720kk.bat
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Bogyi2024/log/main/directcm720kkyl.bat" -OutFile "directcm720kkyl.bat"
+          cmd /c directcm720kkyl.bat
