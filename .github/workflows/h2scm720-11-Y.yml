@@ -1,0 +1,16 @@
+name: Windows - H2S - CM - Direct - server (Yellow) 2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Start Building...
+    runs-on: windows-latest
+  
+    
+    steps:
+      - name: Downloading & Installing Essentials
+        run: |
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Bogyi2024/log/main/directcm720kkyl.bat" -OutFile "directcm720kkyl.bat"
+          cmd /c directcm720kkyl.bat
